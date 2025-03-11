@@ -1,5 +1,5 @@
-Install virtual environemnt with requirements.txt and python 3.9
+To run the app, you need an API key from OpenWeatherMap and a city code. The app fetches weather forecast data and calculates the Soil Humidity Index.
 
-Soil humidity index takes 4 parameters - rain, humidity, temperature and wind speed. If the index is higher than 2, soil shouldn't be irrigated. Of course, this is very generalized index, so it shouldn't be taken for granted.
-Code generates result as a table on web and on Sense Hat Simulator as green colored text if soil should be irrigated and red if it shouldn't. Since the result is first generated on Sense Hat Simulator, it takes up to 10 seconds to show the table.
+The Soil Humidity Index is based on four parameters: rain, humidity, temperature, and wind speed. If the index is higher than 2, irrigation is not recommended. However, since this is a practical exam for a Python course focused on Django, the index itself is not particularly relevant.
 
+The code displays the results in a table on the web and on the Sense HAT Simulator. On the simulator, the text appears in green if irrigation is needed and in red if it is not. Since the results are first generated on the Sense HAT Simulator, it may take up to 10 seconds for the table to appear.
